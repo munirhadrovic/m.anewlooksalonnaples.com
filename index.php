@@ -3,7 +3,7 @@
 	<head>
 		
 		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.css">
-
+		<title>Hair Salon, Hair Stylists, Salon Services- naples, FL</title>
 		<script src="js/jquery-1.11.2.js"></script>
 		<script>
 		    $(document).on("mobileinit", function(evt) {
@@ -76,10 +76,7 @@
 			        }
 		      	});
 
-		    });
-		   
-			
-			
+		    });	
     	</script>
     	
 	</head>
@@ -94,7 +91,7 @@
 		    <h1><img src="img/logo.png" alt="LOGO"></h1>
 		</div>
 		<div data-role="footer" data-theme="<?php echo $theme ?>" data-position="fixed">
-		    <h1>Mobile Site | <a href="http://anewlooksalonnaples.com/" rel="external">Classic Site</a></h1>
+			<h1>Powered by <a href="http://mobilegrows.com/">MobileGrows</a> | <a href="http://anewlooksalonnaples.com/" rel="external">Desktop Site</a></h1>		    
 		</div>
 		<!-- page 1 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 		<div data-role="page" id="page1" data-theme="<?php echo $theme ?>">
@@ -193,6 +190,9 @@
 
             <p>When it comes to sophisticated styles and modern looks, A New Look is the hair salon that sets the bar. Our stylists are experts that take the art of cutting, coloring, and styling hair to the next level.
                 When you want the most amazing style and beautiful color, you'll absolutely get it.</p>
+
+            <div id="header-image"><img src="img/web-design/asset-1411589527915.png" alt=""/></div>
+
             <div id="social" class="ui-grid-d">
                 <div class="ui-block-a">
                     <a href="http://www.facebook.com/"><img src="img/web-design/neo-soc_facebook_w.png" alt=""/></a>
